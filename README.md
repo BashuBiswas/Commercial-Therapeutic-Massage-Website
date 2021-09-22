@@ -9,3 +9,5 @@ You can
 - Many more!
 
 Please get in touch with me for more information!
+
+To run this file, download the whole preject, unzip it, open index.html with your browser (chrome, Firefox, Edge)
