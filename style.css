@@ -1,0 +1,157 @@
+
+/*.index_body{
+	background-image: url("sample_1.jpg");
+	background-position: center center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}*/
+
+
+.index_body{
+	background-image: url("sample_2.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-attachment: fixed;
+}
+
+h1 , h2{
+	color: white;
+	font-size: 4em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	text-align: center;
+	text-shadow: 2px 2px 80px;
+}
+
+h2{
+	font-size:  3em;
+}
+p {
+	font-size: 2em;
+	color: rgba(245, 244, 244, 0.959);
+
+}
+ul {
+	color: white;
+}
+
+.links a {
+	font-size: 3em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	text-decoration: none;
+	display: inline-block;
+	list-style: none;
+	border-radius: 15px;
+	margin-top: 40%;
+	color: white;
+	background-color: ;
+}
+
+.links ul{
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+
+}
+.links li{
+	display: inline-block;
+}
+
+.links a{
+	display: block;
+	padding: 10px 10px;
+}
+
+.links a:hover{
+	background: grey;
+	color: white;
+
+}
+
+li {
+	padding: 40px;
+}
+
+
+/* .table , button {
+	padding: 10px;
+	margin: 5px;
+	display: inline-block;
+	float: left;
+
+} */
+/* button{
+	background-color: greenyellow;
+} */
+
+.service_p{
+	margin: auto;
+	text-align: center;
+	width: 60%;
+}
+
+.service_p:hover {
+	background-color: #010c11;
+	color: white;
+	border-radius: 20px;
+}
+.worker {
+	
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+.worker:hover {
+	background-color: #010c11;
+	color: white;
+	border-radius: 20px;
+}
+
+table {
+	background-color: wheat;
+	margin: auto;
+	margin-bottom: 80px;;
+}
+
+table th {
+	text-align: center;
+	background-color: #3a6070;
+	color: #FFF;
+	font-size: 3em;
+	padding: 30px 30px;
+
+}
+table td {
+	font-size: 3em;
+	border: 2px solid;
+}
+table tr {
+	font-size: 1em;
+}
+
+button{
+	font-size: 0.7em;
+	text-align: center;
+	border-radius: 15px;
+	width: 100%;
+	border-style: none;
+	text-decoration: none;
+	border: none;
+	background-color: rgb(164, 146, 165);
+}
+button {
+	transition-duration: 0.2s;
+}
+  
+button:hover {
+	background-color: #0fee1ab4; /* Green */
+	color: white;
+	font-size: 0.8em;
+}
+
+.fixed {
+	cursor: not-allowed;
+  }
